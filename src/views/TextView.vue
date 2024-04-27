@@ -61,7 +61,7 @@ function sendQuestion() {
       </div>
       <div
         v-if="textChatStore.gptResponse.length > 0"
-        class="block w-full rounded-md border-0 bg-green-900 text-gray-100 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:p-4 sm:text-sm sm:leading-6 text-sm my-4"
+        class="audioblock block w-full rounded-md border-0 bg-green-900 text-gray-100 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:p-4 sm:text-sm sm:leading-6 text-sm my-4"
         style="max-width: 98%;"
         >
         {{ textChatStore.gptResponse }}
