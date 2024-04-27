@@ -53,15 +53,41 @@ button[type="submit"] {
 
   /* New styles for border and gradient */
   border: thick #0e0101; /* Adjust for a different border style, optional */
-  background-image: linear-gradient(to right, #10d0bd, #035248)
+  background-image: linear-gradient(to right, #10d0bd, #035248);
+  margin-right: 15px;
+  font-weight: 700;
 }
 
+.TextClear {
+  background-image: linear-gradient(to right, #10d0bd, #035248);
+  margin-right: 15px;
+  font-weight: 700;
+  padding: 10px 30px;
+  border-radius: 10px;
+  right: 15px;
+  margin-top: 10px;
+  margin-right: 15px;
+}
 
 .button-primary,
 button[type='submit'] {
   @apply text-[#e9e5df] font-semibold;
   @apply border-[#42b983] border;
   background-image: linear-gradient(to right, #580289, #f27fcc); /* Purple to red gradient */
+  margin-left: 20px;
+}
+
+
+img{
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+/* .my-4{
+  padding-left: 20px;
+} */
+.chat-button {
+  margin-right: 15px;
 }
 
 .chat-button:hover {
@@ -99,6 +125,7 @@ button[type='submit'] {
 
 .question-input {
   @apply block w-full rounded-none rounded-l-md border-0 py-1.5 text-gray-100 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:text-sm sm:leading-6;
+  padding: 25px; /* Adjust as needed */
 }
 
 input {
@@ -112,6 +139,7 @@ input {
 textarea {
   color: #e9e5df;
   background-color: #1a1a21;
+  margin-left: 20px;
 }
 
 h1 {
@@ -122,6 +150,7 @@ h1 {
 h2 {
   font-size: 2rem;
   font-weight: 500;
+  margin-left: 20px;
 }
 
 h3 {

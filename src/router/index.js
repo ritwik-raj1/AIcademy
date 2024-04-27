@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import Register from '../views/Register.vue' // Import your Register component
 import HomeView from '../views/HomeView.vue'
 import TextView from '../views/TextView.vue'
 import AudioView from '../views/AudioView.vue'
@@ -14,6 +15,11 @@ const router = createRouter({
       component: HomeView
     },
     {
+      path: '/register', // Define the path for your Register component
+      name: 'register',
+      component: Register
+    },
+    {
       path: '/text',
       name: 'text',
       component: TextView
@@ -27,7 +33,7 @@ const router = createRouter({
       path: '/image',
       name: 'image',
       component: ImageView
-    }
+    },
   ]
 })
 

@@ -9,8 +9,8 @@ const imageChatStore = useImageChatStore()
     <div class="mt-1">
       <h2>🖼️ Add an image URL that you would like to ask questions about.</h2>
       <section class="my-4">
-        <input v-model="imageChatStore.imageURL" />
-      </section>
+    <textarea v-model="imageChatStore.imageURL" class="w-full h-15 resize-none max-w-xs" style="border-width: 1px; border-radius: 5px; "></textarea>
+    </section>
 
       <img class="w-80 mt-10" :src="imageChatStore.imageURL" />
     </div>

@@ -12,15 +12,15 @@ function sendQuestion() {
 
 <template>
   <article class="grid grid-cols-1 lg:grid-cols-2 gap-x-8">
-    <div class="mt-1">
+    <div class="mt-2">
       <h2>📝 Enter the text you would like to ask questions about.</h2>
-      <section>
+      <section class="mt-7">
         <!-- Text Area to input text for analysis -->
         <textarea
-          rows="20"
+          rows="18"
           v-model="textChatStore.text"
-          class="block w-full rounded-md border-0 text-gray-100 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:p-1.5 sm:text-sm sm:leading-6 text-sm my-4"
-        />
+          class="block w-full rounded-md border-0 text-gray-100 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:p-1.5 sm:text-sm sm:leading-6 text-sm my-4">
+        </textarea>
       </section>
     </div>
     <div>
@@ -62,16 +62,19 @@ function sendQuestion() {
       <div
         v-if="textChatStore.gptResponse.length > 0"
         class="block w-full rounded-md border-0 bg-green-900 text-gray-100 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:p-4 sm:text-sm sm:leading-6 text-sm my-4"
-      >
+        style="max-width: 98%;"
+        >
         {{ textChatStore.gptResponse }}
       </div>
       <div v-if="tokenizeStore.tokenLength" class="text-xs mt-1">
         Token length: {{ tokenizeStore.tokenLength }}
       </div>
-    </div>
-  </article>
-  <div class="flex justify-end">
+    <div class="flex justify-end" style="margin-bottom: 20px">
     <!-- Clear button to reset all the data -->
-    <button @click="textChatStore.clearChat()" class="button button-secondary">Clear</button>
-  </div>
+    <button @click="textChatStore.clearChat()" class="TextClear">Clear</button>
+    </div>
+    </div>
+    
+  </article>
+
 </template>
