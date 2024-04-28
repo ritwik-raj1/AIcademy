@@ -1,6 +1,6 @@
 <template>
     <div class="registration-form">
-      <h1 style="text-align:center;margin-bottom: 40px; font-size: xx-large;">Create an Account</h1>
+      <h1 style="text-align:center;margin-bottom: 40px; font-size: xx-large;">Sign In to an Account / Signin</h1>
       <form>
         <div class="form-group">
           <input type="text" placeholder="Email" v-model="email" />
@@ -20,7 +20,7 @@
   
   <script setup>
   import { ref } from "vue";
-  import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+  import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
   import { useRouter } from "vue-router"; // import router
   
   const email = ref("");
@@ -29,9 +29,9 @@
   
   const register = () => {
     // need .value because ref()
-    createUserWithEmailAndPassword(getAuth(), email.value, password.value)
+    signInWithEmailAndPassword(getAuth(), email.value, password.value)
       .then((data) => {
-        console.log("Successfully registered ...");
+        console.log("Successfully signed in...");
         router.push("/");
       })
       .catch((error) => {

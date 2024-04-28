@@ -12,9 +12,9 @@ const imageChatStore = useImageChatStore()
     <textarea v-model="imageChatStore.imageURL" class="w-full h-15 resize-none max-w-xs" style="border-width: 1px; border-radius: 5px; "></textarea>
     </section>
 
-      <img class="w-80 mt-10" :src="imageChatStore.imageURL" />
+      <img class="w-60 mt-10" :src="imageChatStore.imageURL" /> 
     </div>
-    <div class="min-h-80 flex flex-col justify-between">
+    <div class="min-h-60 flex flex-col justify-between">
       <chat-window-image />
       <div class="flex justify-end">
         <button @click="imageChatStore.clearChat()" class="button button-secondary">Clear</button>

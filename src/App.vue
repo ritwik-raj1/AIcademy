@@ -25,6 +25,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <router-link to="/text" class="px-2">Text</router-link>
       <router-link to="/audio" class="px-2">Audio</router-link>
       <router-link to="/image" class="px-2">Image</router-link>
+      <router-link to="/register" class="px-2">Register/Signin</router-link>
     </ul>
   </nav>
   <main>
