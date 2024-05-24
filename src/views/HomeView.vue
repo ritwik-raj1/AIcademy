@@ -15,15 +15,15 @@ xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="#ffffff" d=
 
   <section class="flex flex-col items-center mt-5">
     <router-link class="button button-primary button-large w-11/12 lg:w-3/6 my-6" to="/text">
-      📝 I want to ask questions about written text
+      📝 Want to Ask Questions? 📝
     </router-link>
 
     <router-link class="button button-primary button-large w-11/12 lg:w-3/6 my-6" to="/audio">
-      🔊 I want to ask questions about spoken language
+      🎦🔊 Need AI Insights from Audio & Video? 🔊🎦
     </router-link>
 
     <router-link class="button button-primary button-large w-11/12 lg:w-3/6 my-6" to="/image">
-      🖼️ I want to ask questions about an image</router-link
+      🖼️ Need AI Insight of an Image? 🖼️</router-link
     >
   </section>
 </template>

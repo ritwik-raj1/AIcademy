@@ -1,6 +1,6 @@
 <template>
     <div class="registration-form">
-      <h1 style="text-align:center;margin-bottom: 40px; font-size: xx-large;">Create an Account</h1>
+      <h1 style="text-align:center;margin-bottom: 40px; font-size: xx-large;">Account Signup</h1>
       <form>
         <div class="form-group">
           <input type="text" placeholder="Email" v-model="email" />
@@ -11,8 +11,9 @@
         <button @click="register" style="margin-bottom: 15px; font-weight:900; font-size:larger;">Submit ➡️</button>
         <p style="margin-bottom: 15px;text-align: center;font-weight: 900;">OR</p>
         <button @click="SignInWIthGoogle" style="display: flex; flex-direction: column; align-items: center;font-weight: 900; font-size: larger;">
-            Sign In With Google
+            Sign In With Email / Google
             <img src="/src/assets/google.png" alt="Google Logo" style="width: 35px; height: 35px; margin-top: 5px;">
+            
             </button>
       </form>
     </div>
@@ -48,13 +49,9 @@
   <style scoped>
   .registration-form {
     max-width: 600px;
-    margin:10px auto;
+    margin:3% auto;
     padding: 50px; /* Add padding between internal elements and border */
-    /* border-radius: 50px; */
-    background-color: #101014;
-    border: 40px solid transparent; /* Set border width and make it transparent */
-    border-image: linear-gradient(to right, #580289, #f27fcc) 1; /* Apply linear gradient as border */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    
   }
   
   .form-group {
