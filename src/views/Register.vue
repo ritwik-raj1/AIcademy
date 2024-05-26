@@ -2,6 +2,12 @@
     <div class="registration-form">
       <h1 style="text-align:center;margin-bottom: 40px; font-size: xx-large;">Account Signup</h1>
       <form>
+      <div class="form-group">
+          <input type="text" placeholder="Name" v-model="email" />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Phone Number (+91)" v-model="email" />
+        </div>
         <div class="form-group">
           <input type="text" placeholder="Email" v-model="email" />
         </div>
