@@ -9,7 +9,7 @@ const audioChatStore = useAudioChatStore()
 <template>
   <article class="grid grid-cols-1 lg:grid-cols-2 gap-x-8">
     <div class="mt-1">
-      <h2>Choose audio that has some speech that you would like to ask questions about.</h2>
+      <h2>Select audio or video with speech you want to question.</h2>
       <section class="my-4">
         <uploader fileType="audio/*" />
       </section>

@@ -2,7 +2,7 @@
     <div class="registration-form">
       <h1 style="text-align:center;margin-bottom: 40px; font-size: xx-large;">Account Signup</h1>
       <form>
-      <div class="form-group">
+        <div class="form-group">
           <input type="text" placeholder="Name" v-model="email" />
         </div>
         <div class="form-group">
@@ -55,7 +55,7 @@
   <style scoped>
   .registration-form {
     max-width: 600px;
-    margin:3% auto;
+    margin:auto;
     padding: 50px; /* Add padding between internal elements and border */
     
   }
