@@ -13,7 +13,7 @@ function sendQuestion() {
 <template>
   <article class="grid grid-cols-1 lg:grid-cols-2 gap-x-8">
     <div class="mt-2">
-      <h2>📝 Enter the text you would like to ask questions about.</h2>
+      <h2>📝 Enter the Text you would like to ask questions about.</h2>
       <section class="mt-7">
         <!-- Text Area to input text for analysis -->
         <textarea
