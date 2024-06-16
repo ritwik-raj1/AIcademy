@@ -1,6 +1,11 @@
-# AI-Powered-App
+Multi-Funtional & Multi-Modal # AI-Powered-App 
 
 ![Screenshot of the AI-Powered App](./src/assets/demo.png)
+(./src/assets/demo1.png)
+(./src/assets/demo2.png)
+(./src/assets/demo3.png)
+(./src/assets/demo4.png)
+
 
 This is a project that demonstrates how to use several AI technologies:
 
@@ -28,7 +33,7 @@ Create a `.env` file at the root of the project and then go into the `.gitignore
 
 Add API keys to the `.env` file as you see in the `.env-example` file. Go to each of these websites to sign up for an API key:
 
-[OpenAI](https://platform.openai.com/signup)
+[Google Gemini]
 
 [Deepgram](https://dpgr.am/deepgram-signup)
 
