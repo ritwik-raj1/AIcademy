@@ -9,7 +9,6 @@ import router from './router'
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 const firebaseConfig = {
-  apiKey: "AIzaSyCdPHbzFQMh9aTF7w2OQmgDxlst656p35Q",
   authDomain: "aicademy-59b78.firebaseapp.com",
   projectId: "aicademy-59b78",
   storageBucket: "aicademy-59b78.appspot.com",

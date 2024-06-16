@@ -1,10 +1,10 @@
 Multi-Funtional & Multi-Modal # AI-Powered-App 
 
 ![Screenshot of the AI-Powered App](./src/assets/demo.png)
-(./src/assets/demo1.png)
-(./src/assets/demo2.png)
-(./src/assets/demo3.png)
-(./src/assets/demo4.png)
+![AI-Text Model](./src/assets/demo1.png)
+![AI Audio & Video Model](./src/assets/demo2.png)
+![AI Image Model](./src/assets/demo3.png)
+![Signup](./src/assets/demo4.png)
 
 
 This is a project that demonstrates how to use several AI technologies:
