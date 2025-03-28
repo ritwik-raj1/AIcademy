@@ -1,5 +1,8 @@
 Multi-Funtional & Multi-Modal # AI-Powered-App 
 
+## Checkout the Demo Video
+[Watch on YouTube](https://www.youtube.com/watch?v=LhrTHXTGX6M&t=3s)
+
 ![Screenshot of the AI-Powered App](./src/assets/demo.png)
 ![AI-Text Model](./src/assets/demo1.png)
 ![AI Audio & Video Model](./src/assets/demo2.png)
